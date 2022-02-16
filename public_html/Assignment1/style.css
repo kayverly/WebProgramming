@@ -1,0 +1,115 @@
+body {
+  background-image: url("clouds.jpg");
+  background-repeat: y-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+}
+span {
+  color: red;
+  font-weight: bold;
+}
+.heading {
+  margin: auto;
+  width: 50%;
+  border: 10px solid lightblue;
+  background-color: #ffe4b5;
+  padding: 10px;
+  text-align: center;
+}
+.heading h3 {
+  color: #D2691E;
+  font-size: 25px;
+  font-style: oblique;
+}
+.heading p {
+  font-style: oblique;
+  font-weight: bold;
+  color: #a0522d;
+}
+
+.work {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.lists {
+  margin: auto;
+  background-image: url("ORclouds.jpeg");
+  background-size: contain;
+  padding-top: 20px;
+  width: 80%;
+}
+.list1 {
+  position: relative;
+  left: 20px;
+  width: 50%;
+  text-align: left;
+}
+
+.list2 {
+  position: relative;
+  left: 450px;
+  bottom:  170px;
+  width: 50%;
+  text-align: left;
+}
+.list3 {
+  position: relative;
+  bottom:  100px;
+  padding: 15px;
+  font-size: 15px;
+}
+
+a:hover {
+  background-color: #f4a460;
+}
+
+h2 {
+  color: darkviolet;
+}
+h3 {
+  color: #D2691E;
+  font-size: 25px;
+}
+h4 {
+  font-size: 20px;
+  color: #b22222;
+}
+p {
+  font-size: 15px;
+  color: black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  position: relative;
+  left: 100px;
+}
+th {
+  font-size: 20px;
+  color: #D2691E;
+  text-align: center;
+  padding: 16px;
+  font-weight: bold;
+}
+td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #00ced1;
+}
+
+tr:nth-child(odd) {
+  background-color: #7B68EE;
+}
+ul {
+  list-style-type: circle;
+}
+ol {
+  list-style-type: upper-roman;
+}
