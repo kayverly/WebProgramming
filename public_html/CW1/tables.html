@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Table Design</title>
+
+		<style type="text/css">
+			table, th, td {
+				border: 1px solid black;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+
+		<h3 align="center"> Activity 1 </h3>
+		<table style="width: 80%" align = "center">
+		<caption> CSC4370/6370 timetable </caption>
+		<tr>
+			<td width=50%> </td>
+			<th width=150> Monday </th>
+			<th width=150> Tuesday </th>
+			<th width=150> Wednesday </th>
+			<th width=150> Thursday </th>
+			<th width=150> Friday </th>
+		</tr>
+		<tr>
+			<td> 6-7pm </td>
+			<td> Look at website </td>
+			<td> free </td>
+			<td> Implementation </td>
+			<td> free </td>
+			<td> free </td>
+		</tr>
+		<tr>
+			<td> 7-8pm </td>
+			<td> Take some notes </td>
+			<td> free </td>
+			<td> Implementation </td>
+			<td> free </td>
+			<td> free </td>
+		</tr>
+		</table>
+
+<br>
+		<h3 align="center">Activity 2: HTML Color Table</h3>
+		<table style="width: 80%" align = "center">
+			<caption> Some HTML Colors </caption>
+			<tr>
+				<th width=50 height=40> Color </th>
+				<th width=150> Name </th>
+				<th width=150> hexidecimal </th>
+				<th width=150> RGB value </th>
+			</tr>
+			<tr>
+				<td bgcolor="salmon" height=40></td>
+				<td>Salmon</td>
+				<td>FA8072</td>
+				<td><b>250-128-114</b></td>
+			</tr>
+			<tr>
+				<td bgcolor="gold" height=40></td>
+				<td style="">Gold</td>
+				<td>FFD700</td>
+				<td><b>255-215-0</b></td>
+			</tr>
+		</table>
+<br>
+		<h3 align="left">Activity 3: Rowspan</h3>
+		<table style="width: 30%" align="left">
+			<tr>
+				<td bgcolor="red" rowspan=2 width=75> red cell</td>
+				<td bgcolor="silver" height=100> silver cell</td>
+			</tr>
+			<tr>
+				<td bgcolor="gold" height=100> gold cell </td>
+			</tr>
+		</table>
+
+		<h3 align="center"> Activity 4: Colspan, Cellspacing, Cellpadding </h3>
+		<table style="width: 30%" align="center" cellspacing=15>
+			<tr>
+				<td colspan=2 height=100 bgcolor="red">red cell</td>
+			</tr>
+			<tr>
+				<td bgcolor="silver" height=100> silver cell</td>
+				<td bgcolor="gold" height=100> gold cell </td>
+			</tr>
+		</table>
+
+		<h3 align="center"> Activity 5: More Cellspacing and Cellpadding </h3>
+	<table style="width: 30%" height=30 border=0 align="center" cellspacing=0 cellpadding=0>
+		<tr>
+			<td width=50 height=15 bgcolor="darkred"></td>
+			<td width=150 bgcolor="red"></td>
+			<td width=150 bgcolor="pink"></td>
+		</tr>
+		<td height=15 bgcolor="darkblue"></td>
+		<td bgcolor="blue"></td>
+		<td bgcolor="lightblue"></td>
+	</table>
+
+	<br>
+	
+	<h3 align="center"> Activity 6: Time Table </h3>
+		<table style="width: 60%" align = "center">
+		<caption> Kay's Timetable </caption>
+		<tr>
+			<td width=50></td>
+			<th width=70></th>
+			<th colspan=3 width=70>Morning</th>
+			<th width=50>Lunch</th>
+			<th colspan=4 width=70>Afternoon</th>
+			<th colspan=3 width=70>Evening</th>
+		</tr>
+		<tr>
+			<td height=30></td>
+			<td></td>
+			<td>9-10 am</td>
+			<td>10-11 am</td>
+			<td>11-12 pm</td>
+			<td>1-2 pm</td>
+			<td>2-3 pm</td>
+			<td>3-4 pm</td>
+			<td>4-5 pm</td>
+			<td>5-6 pm</td>
+			<td>6-7 pm</td>
+			<td>7-8 pm</td>
+			<td>8-9 pm</td>
+		</tr>
+		<tr>
+			<td rowspan=2>Work</td>
+			<td height=20>Monday</td>
+			<td colspan=3>Development Meeting</td>
+			<td></td>
+			<td colspan=3>Client Meeting</td>
+			<td>Commute</td>
+			<td colspan=3>Free</td>
+		</tr>
+		<tr>
+			<td>Tuesday</td>
+			<td colspan=3>In Office</td>
+			<td></td>
+			<td colspan=7>In office</td>
+		</tr>
+		<tr>
+			<td rowspan=2>Lecture</td>
+			<td>Wednesday</td>
+			<td colspan=3>CSC205</td>
+			<td></td>
+			<td colspan=7>preparation</td>
+		</tr>
+		<tr>
+			<td height=30>Thursday</td>
+			<td colspan=3>MAM200</td>
+			<td></td>
+			<td colspan=3>Tutorials for MAM200</td>
+			<td colspan=4>Free</td>
+		</tr>
+		<tr>
+			<td>Research</td>
+			<td>Friday</td>
+			<td colspan=3>Research</td>
+			<td></td>
+			<td colspan=7>Research</td>
+		</tr>
+		</table>
+	</body>
+</html>
+
+

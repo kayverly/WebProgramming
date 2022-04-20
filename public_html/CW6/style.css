@@ -1,0 +1,29 @@
+body {
+    margin-left: 2em;
+}
+.form { 
+    width: 50%;
+}
+input[type=text], .error{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin: 5px 5px 5px 0;
+    float: right;
+    overflow: hidden;
+    position: relative;
+    bottom: 2em;
+  }
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.error {
+    color: red;
+    font-size: 90%;
+    text-decoration: underline;
+}

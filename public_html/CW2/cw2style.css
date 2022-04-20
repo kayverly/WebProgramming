@@ -1,0 +1,66 @@
+#h1 {
+	color: red;
+	margin-left: 2cm;
+	}
+
+#h2 {
+	color: red;
+	margin-left: 4cm;
+}
+
+#p {
+	text-indent: 2cm;
+	color: darkred;
+	margin-left: 6cm;
+}
+
+.ex4 {
+	background-color: chocolate;
+}
+
+.artist {
+	font-size: 14pt;
+	font-family: Arial;
+	font-weight: bold;
+	color: moccasin;
+}
+
+.title {
+	font-size: 14pt;
+	font-family: Arial;
+	font-weight: normal;
+	color: khaki;
+}
+
+.album {
+	font-size: 12pt;
+	font-family: Arial;
+	font-weight: normal;
+	color: khaki;
+}
+
+.year {
+	font-size: 12pt;
+	font-family: Arial;
+	font-weight: bold;
+	color: ivory;
+}
+
+.verse {
+	font-size: 14pt;
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	color: gold;
+	margin-left: 2cm;
+	shape-margin: 2cm;
+}
+
+.chorus {
+	font-size: 14pt;
+	font-family: Trebuchet MS;
+	font-style: italic;
+	font-weight: bold;
+	color: gold;
+	margin-left: 4cm;
+	shape-margin: 4cm;
+}

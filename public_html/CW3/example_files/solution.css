@@ -1,0 +1,33 @@
+header {
+	text-align: center;
+}
+
+#main {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	display: flex;
+}
+.aside {
+	padding: 2em;
+	margin: 2em;
+	border: 4px dashed red;
+}
+aside .left {
+	flex-basis: 33%;
+	text-align: center;
+}
+aside .right {
+	flex-basis: 67%;
+}
+img {
+	width: 200px;
+	float: right;
+}
+.special {
+	clear: both;
+}
+.fixed {
+	position: fixed;
+	bottom: 5px;
+}

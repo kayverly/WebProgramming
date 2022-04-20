@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CW02</title>
+	<style type="text/css">
+		#exercise2 {
+			background-color: ivory;
+			float: left;
+		}
+		#h1 {
+			color: red;
+			margin-left: 2cm;
+		}
+
+		#h2 {
+			color: red;
+			margin-left: 4cm;
+		}
+
+		#p {
+			text-indent: 2cm;
+			color: darkred;
+			margin-left: 6cm;
+		}
+		.ex6 {
+			background-color: lightblue;
+			color: white;
+		}
+		h1.ex6 {
+			text-align: center;
+		}
+		.schoolName {
+			font-size: 20px;
+			color: goldenrod;
+			font-style: italic;
+		}
+
+	</style>
+	<link rel="stylesheet" href="cw2style.css">
+</head>
+<body>
+	<h2>Exercise 1</h2>
+	<p style="text-indent: 2cm; color: red;">
+		This paragraph has been formatted using the in-line style command.
+	</p>
+	<p>
+		This paragraph has not been formatted using the in-line style command.
+	</p>
+	<div id="exercise2">
+		<h2>Exercise 2</h2>
+		<p>I believe the mistake is that the color and marginleft for h1, h2, h3 are useless because its apart of the body and already covered</p>
+	</div>
+<br>
+	<h2>Exercise 3</h2>
+	<br>
+
+	<h1 id="h1" style="color: red; margin-left: 2cm;">H1 heading</h1>
+	<h2 id="h2" style="color: red; margin-left: 4cm;">H2 subheading</h2>
+	<p id="p" style="text-indent:2cm; color:darkred; margin-left:6cm">Paragraph 1</p>
+	<p id="p" style="text-indent:2cm; color:darkred; margin-left:6cm">Paragraph 2</p>
+	<h2 id="h2" style="color:red; margin-left:4cm">H2 subheading</h2>
+	<p id="p" style="text-indent:2cm; color:darkred; margin-left:6cm">Paragraph 1</p> 
+<br>
+
+	<h2>Exercise 4</h2>
+<div class="ex4">
+	<h1 class="artist ex4">The Weeknd</h1>
+	<h2 class="title ex4">Heartless</h2>
+	<h2 class="album ex4">After Hours</h2>
+	<h2 class="year ex4">2019</h2>
+	<p class="verse ex4">Seven years, I've been swimming with the sharks now</p>
+	<p class="chorus ex4">Cause I'm hearltess! And I'm back to my ways cause I'm heartless. All this money and this pain got me heartless. Low life for life cause I'm heartless</p>
+</div>
+
+	<h2>Exercise 6</h2>
+	<div class="ex6">
+		<h1 class="ex6">School Html Tags</h1>
+		<p><i>Q. The school wants you to explain the process you wish to use, and why it is better than letting every teacher write their own style. </i> <p>
+        
+		<p style = "color: moccasin; font-weight: bold;">I would work with the faculty to determine a uniform style that the overall webpage would follow. By using a css external style sheet, we can have multiple faculty webpages follow one style so any changes or updates in style can be done through the external css style sheet which will update to the webpages referencing the css external sheet. </p>
+      
+        <li class="schoolName"> h1 : School Name (class = ".schoolName"; 48px; italic; gold;) </li>
+        <li style="color: black; font-style:italic;"> h5 : School Motto (font-style: italic; color: black;)</li> 
+        <li class="quote" style="color: red; font-style:italic;"> h6 : quote: (class name = "quote"; red; italic;)</li>
+        <li> h4 : Faculty Name (class= ".Fname"; 28pt; Bold; voilet;) </li>
+        <li> body : (background-color: lightblue)</li>
+        <li style="color: black;"> Table: who teaches what (class name= "teaches"; width:200px; border: 2pt solid black; margin-left:auto; margin-right: auto; background-color: antiquewhite; text-align: center;)</li>
+        <li>p : Biography text (class name= "text"; color:darkblue;)</li>
+        <li>ul : Non-teaching faculty (bold; 14pt; black) </li>
+        <li>li : Non-teaching faculty (bold; 14pt; black) </li>
+        <li>div for each department will have style depending on which department. Different background colors</li>
+	</div>
+
+</body>
+</html>
